@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "salesforce-mcp": {
+      "command": "C:\\<PATH_TO_PYTHON_VENV>\\sf-mcp\\virtual-environment\\Scripts\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "requests",
+        "--with",
+        "simple_salesforce",
+        "mcp",
+        "run",
+        "C:\\<PATH_TO_YOUR_SERVER>\\sf-mcp\\real-mcp-server.py"
+      ]
+    }
+  }
+}
