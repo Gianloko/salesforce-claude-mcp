@@ -64,7 +64,9 @@ mcp install real-mcp-server.py
 
 This installs the server and registers all of its tools, resources, and prompts.
 
-### Step 3: Running the Server
+### Step 3: Running the Server (direct or through MCP Client, for example Claude Desktop)
+
+![alt text](https://github.com/Gianloko/images/check_claude_settings.png?raw=true)
 
 To run the server, you can use either of these commands:
 
