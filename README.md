@@ -66,7 +66,7 @@ This installs the server and registers all of its tools, resources, and prompts.
 
 ### Step 3: Running the Server (direct or through MCP Client, for example Claude Desktop)
 
-![alt text](https://github.com/Gianloko/blob/main/images/check_claude_settings.png?raw=true)
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/check_claude_settings.png?raw=true)
 
 To run the server, you can use either of these commands:
 
