@@ -67,6 +67,10 @@ This installs the server and registers all of its tools, resources, and prompts.
 ### Step 3: Running the Server (direct or through MCP Client, for example Claude Desktop)
 
 ![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/check_claude_settings.png?raw=true)
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/claude_desktop_mcp_loaded.jpg?raw=true)
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/enable_mcp_into_chat.jpg?raw=true)
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/ask_claude_to_search_for_opportunities.jpg?raw=true)
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/claude_chat_context_augmented_with_mcp_server_tools.jpg?raw=true)
 
 To run the server, you can use either of these commands:
 
