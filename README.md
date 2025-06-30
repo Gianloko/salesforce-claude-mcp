@@ -64,7 +64,7 @@ mcp install real-mcp-server.py
 
 This installs the server and registers all of its tools, resources, and prompts.
 
-### Step 3: Running the Server (direct or through MCP Client, for example Claude Desktop)
+### Step 3: Running the Server (direct or through MCP Client, for example Claude Desktop or custom mcp source)
 
 ![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/check_claude_settings.png?raw=true)
 ![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/claude_desktop_mcp_loaded.jpg?raw=true)
@@ -91,6 +91,16 @@ To run the server, you can use either of these commands:
     This starts the server using **Uvicorn**, which provides better performance in production environments.
 
 ---
+
+## Running a custom MCP Client
+
+You can run a custom MCP Client (for example "real-mcp-client.py") to connect to your MCP Server. Your client must implement all the logic for connection and processing of the queries against LLM (host).
+
+```bash
+    uv run real-mcp-client.py real-mcp-server.py
+```
+
+![alt text](https://github.com/Gianloko/salesforce-claude-mcp/blob/main/images/mcp_client_connection.png?raw=true)
 
 ## Server Features
 
